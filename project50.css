@@ -1,0 +1,1112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#entry{
+    width: 100%;
+    height: 100vh;
+    background-color: #F15D58;
+    position: relative;
+}
+
+#nav{
+    width: 100%;
+    height: 16vh;
+    top: 5vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#n1{
+    width: 60vh;
+    height: 100%;
+    border-bottom: 1px solid rgba(46, 45, 45, 0.603);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+#immg{
+    width: 60%;
+    height: 14vh;
+    position: absolute;
+}
+
+#immg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#n2{
+    width: 60vh;
+    height: 100%;
+    border-bottom: 1px solid rgba(46, 45, 45, 0.603);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#immg2{
+    width: 80%;
+    height: 14vh;
+    position: absolute;
+}
+
+#immg2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#brick{
+    width: 52%;
+    height: 48%;
+    top: 66%;
+    left: 63%;
+    transform: translate(-66%,-63%);
+    position: absolute;
+}
+
+#brick>img{
+    width: 100%;
+    height: 100%;
+}
+
+#robo{
+    width: 20%;
+    height: 70%;
+    top: 5%;
+    left: 42%;
+    transform: translate(-42%,-5%);
+    position: absolute;
+}
+
+#lefthand{
+    width: 50%;
+    height: 30%;
+    top: 43%;
+    left: 7%;
+    position: absolute;
+}
+
+#righthand{
+    width: 50%;
+    height: 30%;
+    top: 63%;
+    left: 77%;
+    z-index: -99;
+    position: absolute;
+}
+
+#hello{
+    width: 24vw;
+    height: 50vh;
+    position: absolute;
+    top: 31%;
+    left: 13%;
+
+}
+
+#hello>h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    letter-spacing: -3px;
+    color: #363635;
+}
+
+#hello>p{
+    left: 1.5%;
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #F6F6E4;
+}
+
+#hello>a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #F6F6E4;
+    left: 1.5%;
+    top: 56%;
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#hire{
+    width: 10vw;
+    height: 5vw;
+    top: 67%;
+    left: 30%;
+    position: absolute;
+}
+
+#facebook{
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+    top: 31%;
+    left: 67%;
+}
+
+#fb{
+    width: 60%;
+    height: 30%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    position: absolute;
+}
+
+#bandage1{
+    width: 10%;
+    height: 15%;
+    top: 24%;
+    left: 55%;
+    rotate: 20deg;
+    position: absolute;
+    z-index: 999;
+}
+
+#bandage1>img{
+    rotate: 40deg;
+}
+
+#google{
+    width: 80%;
+    height: 25%;
+    top: 29.5%;
+    left: 0%;
+    position: absolute;
+}
+
+#bandage2{
+    width: 10%;
+    height: 15%;
+    top: 47%;
+    left: 27%;
+    rotate: -40deg;
+    position: absolute;
+    z-index: 999;
+}
+
+#bandage2>img{
+    rotate: 40deg;
+}
+
+#twitter{
+    width: 30%;
+    height: 25%;
+    top: 53.5%;
+    left: 25%;
+    position: absolute;
+}
+
+#twitter>img{
+    rotate: -20deg;
+}
+
+#bottomnav{
+    width: 100vw;
+    height: 5vh;
+    bottom: 0;
+    position: absolute;
+    background-color: #DCDDCD;
+}
+
+#bottomnav #one{
+    left: 65%;
+    bottom: -100%;
+    position: absolute;
+}
+
+#bottomnav #two{
+    left: 86%;
+    bottom: -80%;
+    position: absolute;
+}
+
+#bottomnav #three{
+    left: 53%;
+    bottom: -70%;
+    position: absolute;
+}
+
+#bottomnav #four{
+    left: 45%;
+    bottom: -39%;
+    position: absolute;
+}
+
+#bottomnav #five{
+    bottom: -39%;
+    position: absolute;
+}
+
+#bottomnav #six{
+    left: 21%;
+    bottom: -89%;
+    position: absolute;
+}
+
+#next{
+    width: 100%;
+    height: 38vh;
+    background-color: #DCDDCD;
+}
+
+#clouds{
+    width: 100vw;
+    height: 10vh;
+    background-color: #DCDDCD;
+    position: relative;
+}
+
+#cloud1{
+    width: 10vw;
+    height:5vh;
+    top: 75%;
+    left: 1%;
+    position: absolute;
+}
+
+#cloud2{
+    width: 10vw;
+    height:5vh;
+    top: 35%;
+    left: 10%;
+    position: absolute;
+}
+
+#cloud3{
+    width: 13vw;
+    height:16vh;
+    top: -25%;
+    left: 28%;
+    position: absolute;
+}
+
+#cloud3>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cloud4{
+    width: 13vw;
+    height:14vh;
+    top: 40%;
+    left: 18%;
+    position: absolute;
+}
+
+#cloud4>img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cloud5{
+    width: 13vw;
+    height:14vh;
+    top: 30%;
+    left: 37%;
+    position: absolute;
+    z-index: 9;
+}
+
+#cloud6{
+    width: 13vw;
+    height:14vh;
+    top: 28%;
+    left: 54%;
+    position: absolute;
+}
+
+#cloud7{
+    width: 13vw;
+    height:14vh;
+    top: 32%;
+    left: 64%;
+    position: absolute;
+    z-index: 9;
+}
+
+#cloud8{
+    width: 13vw;
+    height:14vh;
+    top: 28%;
+    left: 84%;
+    position: absolute;
+}
+
+#final{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background-color: #DCDDCD;
+}
+
+#fnav{
+    width: 100%;
+    height: 16vh;
+    top: 5vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fn1{
+    width: 60vh;
+    height: 100%;
+    border-bottom: 1px solid rgba(46, 45, 45, 0.603);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+#fimmg{
+    width: 60%;
+    height: 14vh;
+    position: absolute;
+}
+
+#fimmg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#fn2{
+    width: 60vh;
+    height: 100%;
+    border-bottom: 1px solid rgba(46, 45, 45, 0.603);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#fimmg2{
+    width: 80%;
+    height: 14vh;
+    position: absolute;
+}
+
+#fimmg2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#tv{
+    width: 30%;
+    height:50%;
+    left: 35%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+#screen{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 20%;
+    height: 30%;
+}
+
+#screen>img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+#ballon{
+    width: 20%;
+    height: 30%;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    position: absolute;
+}
+
+#ballon2{
+    width: 15%;
+    height: 30%;
+    top: -9%;
+    left: 60%;
+    rotate: 43deg;
+    transform: translate(-50%,0%);
+    position: absolute;
+}
+
+#baloon1{
+    width: 15%;
+    height: 30%;
+    top: -20%;
+    left: 35%;
+    rotate: -43deg;
+    transform: translate(-50%,0%);
+    position: absolute;
+}
+
+#tvimg{
+    width: 30%;
+    height: 20%;
+    background-color: #F15D58;
+    z-index: 9999;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    position: absolute;
+}
+
+#tvimg>img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+#description{
+    width: 20%;
+    height: 10%;
+    background-color: aqua;
+    top:113%;
+    z-index: 99999;
+    left: 48%;
+    transform: translate(-50%,0%);
+    position: absolute;
+}
+
+#description>img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+#badge{
+    width: 10%;
+    height: 10%;
+    top: 13%;
+    left: 103%;
+    position: absolute;
+    z-index: 999999999;
+}
+
+#badge>img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+#user{
+    width: 20%;
+    height:60%;
+    top: 30%;
+    left: 71.5%;
+    position: absolute;
+
+}
+
+#download{
+    width: 19%;
+    height:60%;
+    top: 30%;
+    left: 10.2%;
+    position: absolute;     
+}
+
+#app{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+#android{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 37%;
+    left: 22%;
+}
+
+#free-download{
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    top: 60%;
+    left: 22%;
+}
+
+#another{
+    width: 100vw;
+    height: 40vh;
+    background-color: #A68F58;
+    position: relative;
+}
+
+#mountain{
+    width: 100vw;
+    height: 6vh;
+    position: relative;
+    background-color: #DCDDCD;
+}
+
+#mountain>img{
+    top: -20%;
+    position: absolute;
+}
+
+#mountain #m2{
+    right: 0;
+    position: absolute;
+}
+
+#flag{
+    width: 5vw;
+    height: 10vh;
+    z-index: 99;
+    left: 89%;
+    top: -76%;
+    position: absolute;
+}
+
+#all-mountain{
+    top: 11%;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+}
+
+
+#mountain1{
+    width: 13vw;
+    height:14vh;
+    top: 25%;
+    left: 3%;
+    position: absolute;
+    z-index: 99;
+}
+
+#mountain2{
+    width: 13vw;
+    height:14vh;
+    top: 2%;
+    left: 15%;
+    position: absolute;
+}
+
+#mountain3{
+    width: 13vw;
+    height:14vh;
+    top: 25%;
+    left: 24%;
+    position: absolute;
+    z-index: 999;
+}
+
+#mountain4{
+    width: 13vw;
+    height:14vh;
+    top: 2%;
+    left: 39%;
+    position: absolute;
+    z-index: 99;
+}
+
+#mountain5{
+    width: 13vw;
+    height:14vh;
+    top: 25%;
+    left: 41%;
+    position: absolute;
+    z-index: 99;
+}
+
+#mountain6{
+    width: 13vw;
+    height:14vh;
+    top: 2%;
+    left: 61%;
+    position: absolute;
+    z-index: 99;
+}
+
+#mountain7{
+    width: 13vw;
+    height:14vh;
+    top: 25%;
+    left: 60%;
+    position: absolute;
+    z-index: 99;
+}
+
+#mountain8{
+    width: 13vw;
+    height:14vh;
+    top: 2%;
+    left: 85%;
+    position: absolute;
+    z-index: 9;
+}
+
+#forward{
+    width: 100vw;
+    height: 101vh;
+    background-color: #A68F58;
+    position: relative;
+}
+
+
+#Nnav{
+    width: 100%;
+    height: 16vh;
+    top: 5vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Nn1{
+    width: 70vh;
+    height: 100%;
+    border-bottom: 1px solid rgba(46, 45, 45, 0.603);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+#Nimmg{
+    width: 60%;
+    height: 14vh;
+    position: absolute;
+}
+
+#Nimmg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Nn2{
+    width: 80vh;
+    height: 100%;
+    border-bottom: 1px solid rgba(46, 45, 45, 0.603);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#Nimmg2{
+    width: 80%;
+    height: 14vh;
+    position: absolute;
+}
+
+#Nimmg2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#middle{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    z-index: 999;
+    transform: translate(-45%,-40%);
+}
+
+#arm{
+    width: 20%;
+    height: 20%;
+    top: -24%;
+    left: 47%;
+    position: absolute;
+    z-index: 99;
+}
+
+#arm2{
+    width: 20%;
+    height: 20%;
+    top: -20.5%;
+    left: 62%;
+    position: absolute;
+}
+
+#brand{
+    width: 20%;
+    height:70%;
+    top: 20%;
+    left: 65%;
+    position: absolute;
+}
+
+
+#brand>h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    letter-spacing: -3px;
+    color: #363635;
+}
+
+#brand>p{
+    margin-top: 15px;
+    left: 1.5%;
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #363635;
+}
+
+#brand>img{
+    margin-top: 20px;
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+
+#brand>a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #F6F6E4;
+    left: 1.5%;
+    top: 86%;
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#whitepaper{
+    width: 19%;
+    height:60%;
+    top: 27%;
+    left: 15%;
+    position: absolute;     
+}
+
+#paper{
+    width: 20%;
+    height: 20%;
+    top: -10%;
+    left: 5%;
+    transform: translate(-50%,0%);
+    position: absolute;
+}
+
+#paper>img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    rotate: -5deg;
+}
+
+#paper-yellow{
+    width: 10%;
+    height:10%;
+    top: 55%;
+    left: 14%;
+    position: absolute;     
+}
+
+#paper-yellow>img{
+    rotate: 3deg;
+}
+
+#dark{
+    width: 100vw;
+    height: 120vh;
+    background-color: #414042;
+    position: relative;
+}
+
+#colou{
+    width: 100vw;
+    height: 10vh;
+    background-color: #A68F58;
+    position: absolute;
+}
+
+#dark1{
+    width: 100vw;
+    height: 10vh;
+    background-color:#2B2B2B;
+    position: relative;
+}
+
+#dark1>img{
+    top: -50%;
+    position: absolute;
+}
+
+#w2{
+    left: 5%;
+    position: absolute;
+}
+
+#w3{
+    left: 10%;
+    position: absolute;
+}#w4{
+    left: 15%;
+    position: absolute;
+}#w5{
+    left: 20%;
+    position: absolute;
+}#w6{
+    left: 25%;
+    position: absolute;
+}#w7{
+    left: 30%;
+    position: absolute;
+}#w8{
+    left: 35%;
+    position: absolute;
+}#w9{
+    left: 40%;
+    position: absolute;
+}#w10{
+    left: 45%;
+    position: absolute;
+}
+#w11{
+    left: 50%;
+    position: absolute;
+}
+#w12{
+    left: 55%;
+    position: absolute;
+}
+#w13{
+    left: 60%;
+    position: absolute;
+}
+#w14{
+    left: 65%;
+    position: absolute;
+}
+#w15{
+    left: 70%;
+    position: absolute;
+}
+#w16{
+    left: 75%;
+    position: absolute;
+}
+#w17{
+    left: 80%;
+    position: absolute;
+}
+#w18{
+    left: 85%;
+    position: absolute;
+}
+#w19{
+    left: 90%;
+    position: absolute;
+}
+#w20{
+    left: 95%;
+    position: absolute;
+}
+
+#dark2{
+    width: 100vw;
+    height: 9vh;
+    top: -5%;
+    background-color:#363635    ;
+    position: relative;
+}
+
+#dark2>img{
+    top: -70%;
+    position: absolute;
+}
+
+#d2{
+    left: 5%;
+    position: absolute;
+}
+
+#d3{
+    left: 10%;
+    position: absolute;
+}
+#d4{
+    left: 15%;
+    position: absolute;
+}#d5{
+    left: 20%;
+    position: absolute;
+}#d6{
+    left: 25%;
+    position: absolute;
+}#d7{
+    left: 30%;
+    position: absolute;
+}#d8{
+    left: 35%;
+    position: absolute;
+}#d9{
+    left: 40%;
+    position: absolute;
+}#d10{
+    left: 45%;
+    position: absolute;
+}
+#d11{
+    left: 50%;
+    position: absolute;
+}
+#d12{
+    left: 55%;
+    position: absolute;
+}
+#d13{
+    left: 60%;
+    position: absolute;
+}
+#d14{
+    left: 65%;
+    position: absolute;
+}
+#d15{
+    left: 70%;
+    position: absolute;
+}
+#d16{
+    left: 75%;
+    position: absolute;
+}
+#d17{
+    left: 80%;
+    position: absolute;
+}
+#d18{
+    left: 85%;
+    position: absolute;
+}
+#d19{
+    left: 90%;
+    position: absolute;
+}
+#d20{
+    left: 95%;
+    position: absolute;
+}
+
+
+#dark3{
+    width: 100vw;
+    height: 19vh;
+    top: -10%;
+    background-color: #414042;
+    position: relative;
+}
+
+#dark3>img{
+    top: -49%;
+    position: absolute;
+}
+
+#l2{
+    left: 8%;
+    position: absolute;
+}
+
+#l3{
+    left: 16%;
+    position: absolute;
+}
+#l4{
+    left: 24%;
+    position: absolute;
+}
+#l5{
+    left: 32%;
+    position: absolute;
+}
+#l6{
+    left: 40%;
+    position: absolute;
+}
+#l7{
+    left: 48%;
+    position: absolute;
+}
+#l8{
+    left: 56%;
+    position: absolute;
+}
+#l9{
+    left: 64%;
+    position: absolute;
+}
+#l10{
+    left: 72%;
+    position: absolute;
+}
+#l11{
+    left: 80%;
+    position: absolute;
+}
+#l12{
+    left: 88%;
+    position: absolute;
+}
+#l13{
+    left: 96%;
+    position: absolute;
+}
+
+#finalpage{
+    width: 70%;
+    height: 70%;
+    background-color: #F15D58;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+}
+
+#finalpage>img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
