@@ -9,6 +9,24 @@ body,html{
     height: 100%;
 }
 
+#responsive-main{
+    display: none;
+    width: 100vw;
+    height: 80vh;
+    background: #F15D58;
+    position: absolute;
+    overflow: hidden;
+}
+
+#responsive-main>h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: gilroy;
+    font-size: 7vw;
+}
+
 #main{
     width: 100%;
 }
